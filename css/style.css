@@ -67,7 +67,7 @@
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    background: var(--secondary);
+    background: #365875;
 }
 
 @media (max-width: 991.98px) {
@@ -100,7 +100,7 @@
 }
 
 .bg-hero {
-    background: url(../img/law-3.jpg) top right no-repeat;
+    background: url(../img/law.png) top right no-repeat;
     background-size: cover;
 }
 
@@ -113,12 +113,12 @@
 }
 
 .bg-vegetable {
-    background: linear-gradient(rgba(52, 173, 84, .2), rgba(52, 173, 84, .2)), /*url(../img/vegetable.png)*/ bottom right no-repeat;
+    /*background: linear-gradient(rgba(52, 173, 84, .2), rgba(52, 173, 84, .2)), /*url(../img/vegetable.png)*/ bottom right no-repeat;*/
     background-size: contain;
 }
 
 .bg-fruit {
-    background: linear-gradient(rgba(255, 153, 51, .2), rgba(255, 153, 51, .2)), /*url(../img/fruit.png)*/ bottom right no-repeat;
+    background: linear-gradient(rgba(23, 36, 48, 0.85), rgba(23, 36, 48, 0.85)), /*url(../img/fruit.png)*/ bottom right no-repeat;
     background-size: contain;
 }
 
@@ -285,7 +285,7 @@
 }
 
 .bg-footer {
-    background: linear-gradient(rgba(135, 22, 5, .7), rgba(135, 22, 5, .7)), url(../img/footer.png) center bottom no-repeat;
+    background: linear-gradient(rgba(23, 36, 48, 0.85), rgba(23, 36, 48, 0.85)), url(../img/footer.png) center bottom no-repeat;
     background-size: contain;
 }
 
